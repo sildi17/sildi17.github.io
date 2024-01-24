@@ -1,0 +1,204 @@
+html body{
+    margin: 0px;
+}
+.background{
+    background-image: url(/Img/hero_1.jpg.webp);
+    background-color: gray;
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+::selection {
+    background: rgb(25, 25, 24);
+  }
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;   
+    padding-bottom: 6%;
+    
+}
+.head-1 h3{
+    color:  #fff;
+    font-weight:200;
+    font-size: 26px;
+    cursor: pointer;
+}
+.head-2 h3{
+     padding-right: 25px;
+     font-family : "Work Sans", -apple-system, 
+     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 
+     "Noto Color Emoji";
+     font-weight:lighter;
+     color:#ffffff94;
+     cursor: pointer;
+
+}
+
+.head-2 :hover{
+    color:  #fff;
+}
+a {
+    text-decoration: none;
+}
+.head-1 h3{
+    color:  #fff;
+    font-weight:200;
+    font-size: 26px;
+    cursor: pointer;
+}
+.centerpage {
+    text-align: center;
+    
+}
+
+.centerpage h2 {
+    font-size: 17px;
+    color: #fff;
+    margin-right: 10px;
+    word-spacing: 10px;
+    margin-top: 10px;
+    font-weight: lighter;
+    margin-bottom: -30px;
+}
+
+.centerpage h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 4rem;
+    padding-bottom: 300px;
+}
+.events img {
+    width: 350px;
+    height: 300px;
+}
+
+.events {
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+    
+}
+.events-inner-1{
+    margin-right: 35px;
+}
+.events-inner-2{
+    margin-right: 35px;
+}
+
+.events h1{
+    font-size: 22px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+.events h2 {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight:400;
+    font-size: 18px;
+    
+}
+#ngjyra {
+    color: red;
+}
+
+.events p {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight:400;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+.events-part2 img {
+    width: 350px;
+    height: 300px;
+}
+.events-part2 {
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+}
+
+.events-part2 h1{
+    font-size: 22px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+.events-part2 h2 {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight:400;
+    font-size: 18px;
+}
+#ngjyra {
+    color: red;
+}
+
+.events-part2 p {
+    color: rgba(0, 0, 0, 0.4);
+    font-weight:400;
+    font-size: 18px;
+    max-width: 300px;
+}
+.footer {
+    margin-top: 80px;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.rreshti1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+h2{
+    color: white;
+}
+.lista{
+    color: #fff;
+    cursor: pointer;
+}
+.lista :hover{
+    color: gray;
+}
+.footer h3 {
+    color: gray;
+    text-align: left;
+    cursor: pointer;
+}
+.footer h3:hover{
+    color: white;
+}
+
+.footer h2 {
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+}
+
+.fa {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    color: gray;
+    cursor: pointer;
+}
+.fa:hover{
+color: white;
+}
+.rreshti2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
