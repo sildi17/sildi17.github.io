@@ -4,7 +4,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-  const rooms = document.querySelector('.r');
+const rooms = document.querySelector('.r');
 const dropdown = document.querySelector('.dropdown');
 
 let timeoutIdRooms;
@@ -34,41 +34,41 @@ dhoma2.addEventListener('mouseout', () => {
     }, 3400);
 });
 
-const ikona =document.querySelector('#ikona');
+const ikona = document.querySelector('#ikona');
 const head2d = document.querySelector('.head-2-d')
 ikona.addEventListener(
     'click',
-     ()=>{
-        if (head2d.style.display=='none') {
-            head2d.style.setProperty("display","block","important")
-            
-        }else{
-            head2d.style.setProperty("display","none","important")
+    () => {
+        if (head2d.style.display == 'none') {
+            head2d.style.setProperty("display", "block", "important")
+
+        } else {
+            head2d.style.setProperty("display", "none", "important")
         }
-     }
+    }
 )
 
 
 const tabela = document.querySelector('.head-2')
 window.addEventListener(
     'resize',
-     ()=>{
-        if (window.innerWidth<700) {
-            tabela.style.display='none'
-            ikona.style.setProperty("display","block","important")
-        }if ((window.innerWidth>700)){
-            tabela.style.setProperty("display","flex","important");
-            ikona.style.setProperty("display","none","important")
+    () => {
+        if (window.innerWidth < 700) {
+            tabela.style.display = 'none'
+            ikona.style.setProperty("display", "block", "important")
+        } if ((window.innerWidth > 700)) {
+            tabela.style.setProperty("display", "flex", "important");
+            ikona.style.setProperty("display", "none", "important")
         }
-     }
+    }
 )
 
-const X =document.querySelector('#X');
+const X = document.querySelector('#X');
 
 X.addEventListener(
     'click',
-()=>{
-    head2d.style.display='none';
-}
+    () => {
+        head2d.style.display = 'none';
+    }
 
 )
